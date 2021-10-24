@@ -6,7 +6,8 @@ class Home extends Controller{
 
     // Must have SayHi()
     function SayHi(){
-        $this->model("SinhVienModel");
+        $test = $this->model("SinhVienModel");
+        echo $test;
 
          
         
