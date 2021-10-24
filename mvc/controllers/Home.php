@@ -7,11 +7,11 @@ class Home extends Controller{
     // Must have SayHi()
     function SayHi(){
         //call model
-        $product_query = 'INSERT INTO public."PRODUCTTest"(id,name,price) VALUES (\''."1".'\',\''."Bình".'\',\''."1000".'\')';
-        echo $product_query;
+       $add = $this->model("SinhVienModel");
+       $add->GetSV();
 
         //call views
-        // $this->view("test");
+        $this->view("test");
     }
 
     function Show($a, $b){        
