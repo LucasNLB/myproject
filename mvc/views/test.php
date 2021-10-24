@@ -10,11 +10,11 @@
     <link rel="stylesheet" href="../../css/test.css">
 
     <!-- owl -->
-    <link rel="stylesheet" href="../../orther/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="../../orther/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../../other/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../../other/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!-- bootstrap -->
-    <link rel="stylesheet" href="../../orther/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../other/bootstrap-5.1.3-dist/css/bootstrap.min.css">
 
 
 
@@ -22,7 +22,7 @@
 <body>
     <header>
         <div class="Logo" style="text-align: center;">
-            <a href=""> <img src="/Img/Phone Case.png" alt="" width="100px" height="100px"> </a>
+            <a href=""> <img src="../../Img/Phone Case.png" alt="" width="100px" height="100px"> </a>
             <div class="Intro">
                 <p class="p1"><i>Supply all kinds of cases for iphone models </i></p>
                 <p class="p2"><i> Let us make your phone different</i></p>
@@ -58,7 +58,6 @@
         <div class="item"><a href=""><img src="../../Img/adasdasd.jpg" alt=""></a></div>
     </div>
 </div>
-
 
 <div class="container hot">
     <H1>HOT</H1>
