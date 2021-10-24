@@ -7,7 +7,7 @@ class Home extends Controller{
     // Must have SayHi()
     function SayHi(){
         $test = $this->model("SinhVienModel");
-        echo $test;
+        echo $test->GetSV();
 
          
         
