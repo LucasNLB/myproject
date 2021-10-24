@@ -53,9 +53,9 @@
 
 <div class="slide">
     <div class="owl-carousel owl-theme">
-        <div class="item"><a href=""><img src="../../../Img/adasdasd.jpg" alt=""></a></div>
-        <div class="item"><a href=""><img src="../../../Img/dâsdasasd.jpg" alt=""></a></div>
-        <div class="item"><a href=""><img src="../../../Img/ádasdas.jpg" alt=""></a></div>
+        <div class="item"><a href=""><img src="../../img/ádasdas.jpg" alt=""></a></div>
+        <div class="item"><a href=""><img src="../../Img/dâsdasasd.jpg" alt=""></a></div>
+        <div class="item"><a href=""><img src="../../Img/adasdasd.jpg" alt=""></a></div>
     </div>
 </div>
 
@@ -65,17 +65,17 @@
     
         <div class= "row">
             <div class="col-xs-6 col-sm-4"> 
-                <div class="img-product"><img src="Img/adasdasd.jpg" alt=""></div>
+                <div class="img-product"><img src="../../Img/adasdasd.jpg" alt=""></div>
                 <div class="name-product">Ốp mới</div>
                 <div class="price-product">12.000</div>
             </div>
             <div class="col-xs-6 col-sm-4"> 
-                <div class="img-product"><img src="Img/adasdasd.jpg" alt=""></div>
+                <div class="img-product"><img src="../../Img/adasdasd.jpg" alt=""></div>
                 <div class="name-product">Ốp mới</div>
                 <div class="price-product">12.000</div>
             </div>
             <div class="col-xs-6 col-sm-4"> 
-                <div class="img-product"><img src="Img/adasdasd.jpg" alt=""></div>
+                <div class="img-product"><img src="../../Img/adasdasd.jpg" alt=""></div>
                 <div class="name-product">Ốp mới</div>
                 <div class="price-product">12.000</div>
             </div>
@@ -89,17 +89,17 @@
   
         <div class= "row">
             <div class="col-xs-6 col-sm-4"> 
-                <div class="img-product"><img src="Img/adasdasd.jpg" alt=""></div>
+                <div class="img-product"><img src="../../Img/adasdasd.jpg" alt=""></div>
                 <div class="name-product">Ốp mới</div>
                 <div class="price-product">12.000</div>
             </div>
             <div class="col-xs-6 col-sm-4"> 
-                <div class="img-product"><img src="Img/adasdasd.jpg" alt=""></div>
+                <div class="img-product"><img src="../../Img/adasdasd.jpg" alt=""></div>
                 <div class="name-product">Ốp mới</div>
                 <div class="price-product">12.000</div>
             </div>
             <div class="col-xs-6 col-sm-4"> 
-                <div class="img-product"><img src="Img/adasdasd.jpg" alt=""></div>
+                <div class="img-product"><img src="../../Img/adasdasd.jpg" alt=""></div>
                 <div class="name-product">Ốp mới</div>
                 <div class="price-product">12.000</div>
             </div>
@@ -111,17 +111,17 @@
     <h1>Sale</h1>
         <div class= "row">
             <div class="col-xs-6 col-sm-4"> 
-                <div class="img-product"><img src="Img/adasdasd.jpg" alt=""></div>
+                <div class="img-product"><img src="../../Img/adasdasd.jpg" alt=""></div>
                 <div class="name-product">Ốp mới</div>
                 <div class="price-product">12.000</div>
             </div>
             <div class="col-xs-6 col-sm-4"> 
-                <div class="img-product"><img src="Img/adasdasd.jpg" alt=""></div>
+                <div class="img-product"><img src="../../Img/adasdasd.jpg" alt=""></div>
                 <div class="name-product">Ốp mới</div>
                 <div class="price-product">12.000</div>
             </div>
             <div class="col-xs-6 col-sm-4"> 
-                <div class="img-product"><img src="Img/adasdasd.jpg" alt=""></div>
+                <div class="img-product"><img src="../../Img/adasdasd.jpg" alt=""></div>
                 <div class="name-product">Ốp mới</div>
                 <div class="price-product">12.000</div>
             </div>
