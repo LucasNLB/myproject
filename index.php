@@ -1,5 +1,6 @@
 <?php
-session_start();
-require_once "../mvc/Bridge.php";
-$myApp = new App();
+// session_start();
+// require_once "./mvc/Bridge.php";
+// $myApp = new App();
+echo "Bình đẹp trai";
 ?>
