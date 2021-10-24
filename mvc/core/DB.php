@@ -13,14 +13,7 @@ class DB{
 
 
     function __construct(){
-        $this->con = pg_connect("host=".$servername."port=".$port."dbname=".$dbname."user=".$username."password=".$password."sllmode=".$ssl);
-    );
-        // check connection
-        if($this->con === false){
-            die("Erro");
-        }else{
-            echo "SUCESS";
-        }
+        $this->con = pg_connect("host=".$this->servername."port=".$this->port."dbname=".$this->dbname."user=".$this->username."password=".$this->password."sllmode=".$this->ssl);
          pg_query($this->con, "SET NAMES 'utf8'");
     }
     
