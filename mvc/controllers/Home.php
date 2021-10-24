@@ -8,7 +8,7 @@ class Home extends Controller{
     function SayHi(){
         //call model
         $product_query = 'INSERT INTO public."PRODUCTTest"(id,name,price) VALUES (\''."1".'\',\''."Bình".'\',\''."1000".'\')';
-        return pg_query($this->con, $product_query);
+        pg_query($this->con, $product_query);
 
         //call views
         //$this->view("test");
