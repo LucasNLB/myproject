@@ -1,7 +1,9 @@
 <?php
 class SinhVienModel extends DB{
     public function GetSV(){
-        return "Nguyen Van Teo";
+        
+        $product_query = 'INSERT INTO public."PRODUCTTest"(id,name,price) VALUES (\''."1".'\',\''."Bình".'\',\''."1000".'\')';
+        return pg_query($this->con, $product_query);
     }
 
     public function Tong($n, $m){
@@ -10,7 +12,7 @@ class SinhVienModel extends DB{
 
     public function SinhVien(){
         $qr = "SELECT * FROM sinhvien";
-        return mysqli_query($this->con, $qr);
+        return pg_query($this->con, $qr);
     }
 
 }

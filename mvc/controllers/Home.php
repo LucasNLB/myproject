@@ -6,6 +6,11 @@ class Home extends Controller{
 
     // Must have SayHi()
     function SayHi(){
+        //call model
+       $add = $this->model("SinhVienModel");
+       $add->GetSV();
+
+        //call views
         $this->view("test");
     }
 
