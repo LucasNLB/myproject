@@ -6,8 +6,7 @@ class Home extends Controller{
 
     // Must have SayHi()
     function SayHi(){
-        echo "Bình đẹp trai";
-
+        $this->view("test");
     }
 
     function Show($a, $b){        
