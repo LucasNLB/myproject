@@ -2,8 +2,10 @@
 class SinhVienModel extends DB{
     public function GetSV(){
         
-        $product_query = 'INSERT INTO public."PRODUCTTest"(id,name,price) VALUES (\''."1".'\',\''."Bình".'\',\''."1000".'\')';
-        return pg_query($this->con, $product_query);
+        if($this->con === false)
+            die("ERROR : could not connet to datebase");
+        else
+            echo "SUCESS: connetion to HERUKU pastages has been establist";
     }
 
     public function Tong($n, $m){
