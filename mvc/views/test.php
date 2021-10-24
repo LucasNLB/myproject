@@ -22,7 +22,7 @@
 <body>
     <header>
         <div class="Logo" style="text-align: center;">
-            <a href=""> <img src="../../Img/Phone Case.png" alt="" width="100px" height="100px"> </a>
+            <a href=""> <img src="../../img/Phone Case.png" alt="" width="100px" height="100px"> </a>
             <div class="Intro">
                 <p class="p1"><i>Supply all kinds of cases for iphone models </i></p>
                 <p class="p2"><i> Let us make your phone different</i></p>
@@ -54,8 +54,8 @@
 <div class="slide">
     <div class="owl-carousel owl-theme">
         <div class="item"><a href=""><img src="../../img/ádasdas.jpg" alt=""></a></div>
-        <div class="item"><a href=""><img src="../../Img/dâsdasasd.jpg" alt=""></a></div>
-        <div class="item"><a href=""><img src="../../Img/adasdasd.jpg" alt=""></a></div>
+        <div class="item"><a href=""><img src="../../img/dâsdasasd.jpg" alt=""></a></div>
+        <div class="item"><a href=""><img src="../../img/adasdasd.jpg" alt=""></a></div>
     </div>
 </div>
 
@@ -64,17 +64,17 @@
     
         <div class= "row">
             <div class="col-xs-6 col-sm-4"> 
-                <div class="img-product"><img src="../../Img/adasdasd.jpg" alt=""></div>
+                <div class="img-product"><img src="../../img/adasdasd.jpg" alt=""></div>
                 <div class="name-product">Ốp mới</div>
                 <div class="price-product">12.000</div>
             </div>
             <div class="col-xs-6 col-sm-4"> 
-                <div class="img-product"><img src="../../Img/adasdasd.jpg" alt=""></div>
+                <div class="img-product"><img src="../../img/adasdasd.jpg" alt=""></div>
                 <div class="name-product">Ốp mới</div>
                 <div class="price-product">12.000</div>
             </div>
             <div class="col-xs-6 col-sm-4"> 
-                <div class="img-product"><img src="../../Img/adasdasd.jpg" alt=""></div>
+                <div class="img-product"><img src="../../img/adasdasd.jpg" alt=""></div>
                 <div class="name-product">Ốp mới</div>
                 <div class="price-product">12.000</div>
             </div>
@@ -88,17 +88,17 @@
   
         <div class= "row">
             <div class="col-xs-6 col-sm-4"> 
-                <div class="img-product"><img src="../../Img/adasdasd.jpg" alt=""></div>
+                <div class="img-product"><img src="../../img/adasdasd.jpg" alt=""></div>
                 <div class="name-product">Ốp mới</div>
                 <div class="price-product">12.000</div>
             </div>
             <div class="col-xs-6 col-sm-4"> 
-                <div class="img-product"><img src="../../Img/adasdasd.jpg" alt=""></div>
+                <div class="img-product"><img src="../../img/adasdasd.jpg" alt=""></div>
                 <div class="name-product">Ốp mới</div>
                 <div class="price-product">12.000</div>
             </div>
             <div class="col-xs-6 col-sm-4"> 
-                <div class="img-product"><img src="../../Img/adasdasd.jpg" alt=""></div>
+                <div class="img-product"><img src="../../img/adasdasd.jpg" alt=""></div>
                 <div class="name-product">Ốp mới</div>
                 <div class="price-product">12.000</div>
             </div>
@@ -110,17 +110,17 @@
     <h1>Sale</h1>
         <div class= "row">
             <div class="col-xs-6 col-sm-4"> 
-                <div class="img-product"><img src="../../Img/adasdasd.jpg" alt=""></div>
+                <div class="img-product"><img src="../../img/adasdasd.jpg" alt=""></div>
                 <div class="name-product">Ốp mới</div>
                 <div class="price-product">12.000</div>
             </div>
             <div class="col-xs-6 col-sm-4"> 
-                <div class="img-product"><img src="../../Img/adasdasd.jpg" alt=""></div>
+                <div class="img-product"><img src="../../img/adasdasd.jpg" alt=""></div>
                 <div class="name-product">Ốp mới</div>
                 <div class="price-product">12.000</div>
             </div>
             <div class="col-xs-6 col-sm-4"> 
-                <div class="img-product"><img src="../../Img/adasdasd.jpg" alt=""></div>
+                <div class="img-product"><img src="../../img/adasdasd.jpg" alt=""></div>
                 <div class="name-product">Ốp mới</div>
                 <div class="price-product">12.000</div>
             </div>
@@ -164,8 +164,8 @@
         </div>
     </footer>
 
-    <script src="js/jquery-3.6.0.min.js"></script>
-    <script src="orther/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
-    <script src="js/Slide.js"></script>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script src="other/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="../../js/Slide.js"></script>
 </body>
 </html>
