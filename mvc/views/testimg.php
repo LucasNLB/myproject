@@ -9,6 +9,15 @@
 <body>
     <h2>hello</h2>
 
+    <?php 
+    while($row = pg_fetch_assoc($data["imgview"]))
+    {?>
+    <img src="../../img/<?=$row['img']?>" alt="">
+
+    <?php } ?>
+
+            
+
         
 </body>
 </html>
