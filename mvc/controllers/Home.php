@@ -8,20 +8,22 @@ class Home extends Controller{
     function SayHi(){
 
         //call model
-        $img = $this->model("HomepageModel");
+        //$img = $this->model("HomepageModel");
         
         //call view
-         $this ->view("testimg", [
-             "img" => $img->HomeDB()
-         ]);
+        //  $this ->view("testimg", [
+        //      "img" => $img->HomeDB()
+        //  ]);
+
+
 
 
             
 
    
         
-    //call views
-    // $this->view("test");
+    // call views
+        $this->view("test");
     }
 
     function Show($a, $b){        
