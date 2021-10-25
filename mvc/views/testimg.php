@@ -8,15 +8,7 @@
 </head>
 <body>
     <h2>hello</h2>
-<?php
-if(pg_num_rows($data["imgview"]) > 0){
-    while($row = pg_fetch_assoc($data["imgview"])){
 
-        echo $row["id"];
-
-    }
-}
-?>
     
 
             
