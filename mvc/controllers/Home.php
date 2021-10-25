@@ -11,8 +11,8 @@ class Home extends Controller{
         $img = $this->model("HomepageModel");
         
         //call view
-         $this ->view("testimg", [
-             "img" => $img->slide()
+         $this ->view("test", [
+             "img" => $img->HomeDB()
          ]);
 
 

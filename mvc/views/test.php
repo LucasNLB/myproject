@@ -19,8 +19,8 @@
 
 
 </head>
-<body>
-    <header>
+<body>  
+    ?>
         <div class="Logo" style="text-align: center;">
             <a href=""> <img src="../../img/Phone Case.png" alt="" width="100px" height="100px"> </a>
             <div class="Intro">
@@ -61,24 +61,19 @@
 
 <div class="container hot">
     <H1>HOT</H1>
-    
+
+    <?php 
+    while($row = pg_fetch_assoc($data["img"]))
+    {?>
         <div class= "row">
             <div class="col-xs-6 col-sm-4"> 
-                <div class="img-product"><img src="../../img/adasdasd.jpg" alt=""></div>
-                <div class="name-product">Ốp mới</div>
-                <div class="price-product">12.000</div>
-            </div>
-            <div class="col-xs-6 col-sm-4"> 
-                <div class="img-product"><img src="../../img/adasdasd.jpg" alt=""></div>
-                <div class="name-product">Ốp mới</div>
-                <div class="price-product">12.000</div>
-            </div>
-            <div class="col-xs-6 col-sm-4"> 
-                <div class="img-product"><img src="../../img/adasdasd.jpg" alt=""></div>
+                <div class="img-product"><img src="../../img/<?=$row['imgLink']?>" alt=""></div>
                 <div class="name-product">Ốp mới</div>
                 <div class="price-product">12.000</div>
             </div>
         </div>
+    <?php   
+    }?>
 
     
 </div>
