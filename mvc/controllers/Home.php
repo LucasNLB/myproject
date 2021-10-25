@@ -6,13 +6,10 @@ class Home extends Controller{
 
     // Must have SayHi()
     function SayHi(){
-        $img = $this->model("HomepageModel");
-
+        $img = $this->model("SinhVienModel");
+        $img->GetSV();
     // call views
-        $this->view("testimg",[
-            "ImgHome"=>$img->homeing()
 
-        ]);
     }
 
     function Show($a, $b){        
