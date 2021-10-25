@@ -8,12 +8,12 @@ class Home extends Controller{
     function SayHi(){
 
         //call model
-        //$img = $this->model("HomepageModel");
+        $img = $this->model("HomepageModel");
         
         //call view
-        //  $this ->view("testimg", [
-        //      "img" => $img->HomeDB()
-        //  ]);
+         $this ->view("test", [
+             "img" => $img->HomeDB()
+         ]);
 
 
 
@@ -23,7 +23,7 @@ class Home extends Controller{
    
         
     // call views
-        $this->view("test");
+        // $this->view("test");
     }
 
     function Show($a, $b){        
