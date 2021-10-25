@@ -60,23 +60,38 @@
     </div>
 </div>
 
+
+
+
+<?php 
+    while($row = pg_fetch_assoc($data["img"]))
+    {?>
+    <img src="../../img/<?=$row['img']?>" alt="">
+
+<?php
+
+}?>
 <!-- container product -->
 <div class="container hot">
     <H1>HOT</H1>
     
         <div class= "row">
-
-        <?php
-        while($row = pg_fetch_assoc($data["img"])){
-        ?>
+            
             <div class="col-xs-6 col-sm-4"> 
-                <div class="img-product"><img src="../../img/<?=$row['img'] ?>" alt=""></div>
+                <div class="img-product"><img src="Img/adasdasd.jpg" alt=""></div>
                 <div class="name-product">Ốp mới</div>
                 <div class="price-product">12.000</div>
             </div>
-        
-        <?php } ?>
-           
+            <div class="col-xs-6 col-sm-4"> 
+                <div class="img-product"><img src="Img/adasdasd.jpg" alt=""></div>
+                <div class="name-product">Ốp mới</div>
+                <div class="price-product">12.000</div>
+            </div>
+            <div class="col-xs-6 col-sm-4"> 
+                <div class="img-product"><img src="Img/adasdasd.jpg" alt=""></div>
+                <div class="name-product">Ốp mới</div>
+                <div class="price-product">12.000</div>
+            </div>
         </div>
 
     
