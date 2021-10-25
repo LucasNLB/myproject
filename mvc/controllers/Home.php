@@ -10,7 +10,8 @@ class Home extends Controller{
 
     // call views
         $this->view("testimg",[
-            "imgview"=>$img->HomeDB()
+            "imgview"=>$img->homeimg()
+            
         ]);
     }
 
