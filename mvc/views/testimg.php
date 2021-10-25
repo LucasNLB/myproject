@@ -9,16 +9,14 @@
 <body>
     <h2>hello</h2>
 
-    <?php
-            if(pg_num_rows($data["img"]) > 0){
-                while($row = pg_fetch_assoc($data["img"])){
-            ?>
-            <img src="$row ['img']" alt="">
-            <?php      
-                }
-            }
+    <?php 
+    while($row = pg_fetch_assoc($data["img"])){
+        echo $row ["id"];
+    }
+        
+    
+    ?>
             
-            ?>
 
             
     <img src="" alt="">
