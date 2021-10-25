@@ -20,13 +20,7 @@
 
 </head>
 <body>
-<?php
 
-while($row = pg_fetch_assoc($data["img"]))
-{?>
-    <img src="../../img/<?=$row['img']?>" alt="">
-
-<?php } ?>
 
 
 
