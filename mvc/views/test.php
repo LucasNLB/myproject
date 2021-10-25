@@ -71,22 +71,20 @@
     <H1>HOT</H1>
     
         <div class= "row">
-            
+        <?php
+            if(pg_num_rows($data["img"]) > 0){
+                while($row = pg_fetch_assoc($data["img"])){ ?>
+
+         
             <div class="col-xs-6 col-sm-4"> 
-                <div class="img-product"><img src="../../img/Slide2.jpg" alt=""></div>
+                <div class="img-product"><img src="../../img/<?= $row=['imgLink']?>" alt=""></div>
                 <div class="name-product">Ốp mới</div>
                 <div class="price-product">12.000</div>
             </div>
-            <div class="col-xs-6 col-sm-4"> 
-                <div class="img-product"><img src="../../img/Slide2.jpg" alt=""></div>
-                <div class="name-product">Ốp mới</div>
-                <div class="price-product">12.000</div>
-            </div>
-            <div class="col-xs-6 col-sm-4"> 
-                <div class="img-product"><img src="../../img/Slide2.jpg" alt=""></div>
-                <div class="name-product">Ốp mới</div>
-                <div class="price-product">12.000</div>
-            </div>
+
+       <?php }}
+        ?>
+
         </div>
 
     
