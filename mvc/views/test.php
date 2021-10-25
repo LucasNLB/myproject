@@ -60,19 +60,20 @@
 </div>
 
 <div class="container hot">
-    <H1>HOT</H1>
+        <H1>HOT</H1>
 
-   
+    <?php    while($row = pg_fetch_assoc($data["img"]))   {?>
+
         <div class= "row">
             <div class="col-xs-6 col-sm-4"> 
-                <div class="img-product"><img src="../../img/Test1.jpg" alt=""></div>
+                <div class="img-product"><img src="../../img/<?php $row['imgLink']?>" alt=""></div>
                 <div class="name-product">Ốp mới</div>
                 <div class="price-product">12.000</div>
             </div>
         </div>
-  
 
-    
+        <?php } ?>
+
 </div>
 
 <div class="container new">
