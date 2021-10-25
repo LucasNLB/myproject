@@ -10,11 +10,11 @@
     <link rel="stylesheet" href="/css/test.css">
 
     <!-- owl -->
-    <link rel="stylesheet" href="orther/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="orther/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../../other/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../../other/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!-- bootstrap -->
-    <link rel="stylesheet" href="../orther/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../other/bootstrap-5.1.3-dist/css/bootstrap.min.css">
 
 
 
@@ -165,8 +165,8 @@
         </div>
     </footer>
 
-    <script src="js/jquery-3.6.0.min.js"></script>
-    <script src="orther/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
-    <script src="js/Slide.js"></script>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script src="../../other/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="../../js/Slide.js"></script>
 </body>
 </html>
