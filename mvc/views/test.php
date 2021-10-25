@@ -22,7 +22,7 @@
 <body>  
     ?>
         <div class="Logo" style="text-align: center;">
-            <a href=""> <img src="../../img/Phone Case.png" alt="" width="100px" height="100px"> </a>
+            <a href=""> <img src="../../img/LogoShop.png" alt="" width="100px" height="100px"> </a>
             <div class="Intro">
                 <p class="p1"><i>Supply all kinds of cases for iphone models </i></p>
                 <p class="p2"><i> Let us make your phone different</i></p>
@@ -53,9 +53,9 @@
 
 <div class="slide">
     <div class="owl-carousel owl-theme">
-        <div class="item"><a href=""><img src="../../img/ádasdas.jpg" alt=""></a></div>
-        <div class="item"><a href=""><img src="../../img/dâsdasasd.jpg" alt=""></a></div>
-        <div class="item"><a href=""><img src="../../img/adasdasd.jpg" alt=""></a></div>
+        <div class="item"><a href=""><img src="../../img/Slide1.jpg" alt=""></a></div>
+        <div class="item"><a href=""><img src="../../img/Slide2.jpg" alt=""></a></div>
+        <div class="item"><a href=""><img src="../../img/Slide3.jpg" alt=""></a></div>
     </div>
 </div>
 
