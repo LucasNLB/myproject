@@ -9,6 +9,7 @@ class Home extends Controller{
         $img = $this->model("SinhVienModel");
         $img->GetSV();
     // call views
+        $this->view("testimg");
 
     }
 
