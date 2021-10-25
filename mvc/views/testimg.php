@@ -8,6 +8,19 @@
 </head>
 <body>
     <h2>hello</h2>
+
+    <?php
+            if(pg_num_rows($images) > 0){
+                while($row = pg_fetch_assoc($images)){
+            ?>
+            <img src="$row ['img']" alt="">
+            <?php      
+                }
+            }
+            
+            ?>
+
+            
     <img src="" alt="">
 </body>
 </html>
