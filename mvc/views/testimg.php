@@ -10,15 +10,18 @@
     <h2>hello</h2>
 
     <?php 
-    while($row = pg_fetch_assoc($data["img"])){
-        echo $row ["id"];
-    }
-        
+    while($row = pg_fetch_assoc($data["img"]))
+    {?>
+    <img src="../../img/<?=$row['img']?>" alt="">
+
+<?php
+
+}?>
+   
+
     
-    ?>
             
 
-            
-    <img src="" alt="">
+        
 </body>
 </html>
