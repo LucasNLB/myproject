@@ -15,9 +15,6 @@
     <img src="../../img/<?=$row['img']?>" alt="">
 
     <?php } ?>
-   
-
-    
             
 
         
