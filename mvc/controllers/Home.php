@@ -6,8 +6,8 @@ class Home extends Controller{
 
     // Must have SayHi()
     function SayHi(){
-        $img = $this->model("SinhVienModel");
-        $img->GetSV();
+        // $img = $this->model("SinhVienModel");
+        // $img->GetSV();
     // call views
         $this->view("testimg");
 

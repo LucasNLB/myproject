@@ -1,19 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h2>hello</h2>
+<?php
+
+$host = "ec2-54-224-194-214.compute-1.amazonaws.com";
+$database = "dsp51t0avtc5r";
+$user = "sqqzeidvgegbly";
+$port = "5432";
+$password = "0cf33ebbadc2c4b7f7920497fd864e3d1e89c1fde423f9b1ed7bab8c8645f5d8";
+
+$connection_string = "host=".$host." user=".$user." dbname=".$database." port=".$port." password=".$password." sslmode=require";
+
+$connection = pg_connect($connection_string);
+if($connection === false)
+        die("ERROR : could not connet to datebase");
+    else
+        echo "SUCESS: connetion to HERUKU pastages has been establist";
 
 
-    
 
-            
-
-        
-</body>
-</html>
+?>
