@@ -11,7 +11,7 @@ $connection = pg_connect($connection_string);
 
 
 if($connection === false)
-    die("ERROR : could not connet to datebase");
+    echo $connection_string;
 else
     echo "SUCESS: connetion to HERUKU pastages has been establist";
 
