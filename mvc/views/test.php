@@ -66,7 +66,7 @@
 
         <div class= "row">
             <div class="col-xs-6 col-sm-4"> 
-                <div class="img-product"><img src="../../img/<?php $row['imgLink']?>" alt=""></div>
+                <div class="img-product"><img src="../../img/<?php $row['img']?>" alt=""></div>
                 <div class="name-product">Ốp mới</div>
                 <div class="price-product">12.000</div>
             </div>
