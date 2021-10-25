@@ -1,7 +1,6 @@
 <?php
 class SinhVienModel extends DB{
     public function GetSV(){
-        
         $product_query = 'INSERT INTO public."PRODUCTTest"(id,name,price) VALUES (\''."1".'\',\''."Bình".'\',\''."15".'\')';
         pg_query($this->con,$product_query);
     }

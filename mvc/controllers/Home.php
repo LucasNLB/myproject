@@ -9,7 +9,10 @@ class Home extends Controller{
         $img = $this->model("HomepageModel");
 
     // call views
-        $this->view("testimg");
+        $this->view("testimg",[
+            "ImgHome"=>$img->homeing()
+
+        ]);
     }
 
     function Show($a, $b){        
