@@ -8,12 +8,8 @@
 </head>
 <body>
     <h2>hello</h2>
-    <?php
-    while($row =pg_fetch_assoc($data["ImgHome"])){
-        echo "A";
-    }
 
-    ?>
+
     
 
             
