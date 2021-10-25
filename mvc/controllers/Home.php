@@ -6,24 +6,9 @@ class Home extends Controller{
 
     // Must have SayHi()
     function SayHi(){
-
-        //call model
-        $img = $this->model("HomepageModel");
-        
-        //call view
-         $this ->view("testimg", [
-             "img" => $img->HomeDB()
-         ]);
-
-
-
-
-            
-
-   
         
     // call views
-        // $this->view("test");
+        $this->view("testimg");
     }
 
     function Show($a, $b){        
