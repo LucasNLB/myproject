@@ -6,17 +6,26 @@ class Home extends Controller{
 
     // Must have SayHi()
     function SayHi(){
+
+        //call model
         $img = $this->model("HomepageModel");
-        $images = $img->slide();
+        
+        //call view
+         $this ->view("test", [
+             "img" => $img->slide()
+         ]);
 
 
-        $this->view("testimg");
+            
+
+
+        
 
          
         
         
-   //call views
-        // $this->view("test");
+    //call views
+    // $this->view("test");
     }
 
     function Show($a, $b){        

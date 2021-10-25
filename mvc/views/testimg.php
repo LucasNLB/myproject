@@ -10,8 +10,8 @@
     <h2>hello</h2>
 
     <?php
-            if(pg_num_rows($images) > 0){
-                while($row = pg_fetch_assoc($images)){
+            if(pg_num_rows($data["img"]) > 0){
+                while($row = pg_fetch_assoc($data["img"])){
             ?>
             <img src="$row ['img']" alt="">
             <?php      
