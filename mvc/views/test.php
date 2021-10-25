@@ -20,7 +20,7 @@
 
 </head>
 <body>  
-    ?>
+    
         <div class="Logo" style="text-align: center;">
             <a href=""> <img src="../../img/LogoShop.png" alt="" width="100px" height="100px"> </a>
             <div class="Intro">
