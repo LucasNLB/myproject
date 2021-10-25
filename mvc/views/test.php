@@ -7,25 +7,23 @@
     <title>Document</title>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <!-- Css -->
-    <link rel="stylesheet" href="../../css/test.css">
+    <link rel="stylesheet" href="/css/test.css">
 
     <!-- owl -->
-    <link rel="stylesheet" href="../../other/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="../../other/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="orther/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="orther/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!-- bootstrap -->
-    <link rel="stylesheet" href="../../other/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../orther/bootstrap-5.1.3-dist/css/bootstrap.min.css">
 
 
 
 </head>
-<body>  
-
-<!-- header -->
-
+<body>
+    <!-- header -->
     <header>
         <div class="Logo" style="text-align: center;">
-            <a href=""> <img src="../../img/LogoShop.png" alt="" width="100px" height="100px"> </a>
+            <a href=""> <img src="/Img/Phone Case.png" alt="" width="100px" height="100px"> </a>
             <div class="Intro">
                 <p class="p1"><i>Supply all kinds of cases for iphone models </i></p>
                 <p class="p2"><i> Let us make your phone different</i></p>
@@ -53,31 +51,35 @@
         
     </header>
 
- <!-- Slide -->
+<!-- slide -->
 <div class="slide">
     <div class="owl-carousel owl-theme">
-        <div class="item"><a href=""><img src="../../img/Slide1.jpg" alt=""></a></div>
-        <div class="item"><a href=""><img src="../../img/Slide2.jpg" alt=""></a></div>
-        <div class="item"><a href=""><img src="../../img/Slide3.jpg" alt=""></a></div>
+        <div class="item"><a href=""><img src="Img/adasdasd.jpg" alt=""></a></div>
+        <div class="item"><a href=""><img src="Img/dâsdasasd.jpg" alt=""></a></div>
+        <div class="item"><a href=""><img src="Img/ádasdas.jpg" alt=""></a></div>
     </div>
 </div>
 
 <!-- container product -->
-
-
 <div class="container hot">
-        <H1>HOT</H1>
+    <H1>HOT</H1>
+    
         <div class= "row">
 
-        <?php while($row = pg_fetch_assoc($data["img"]))   {?>
+        <?php
+        while($row = pg_fetch_assoc($data["img"])){
+        ?>
             <div class="col-xs-6 col-sm-4"> 
-                <div class="img-product"><img src="../../img/<?=$row['img']?>" alt=""></div>
+                <div class="img-product"><img src="../../img/<?=$row['img'] ?>" alt=""></div>
                 <div class="name-product">Ốp mới</div>
                 <div class="price-product">12.000</div>
             </div>
+        
         <?php } ?>
-
+           
         </div>
+
+    
 </div>
 
 <div class="container new">
@@ -85,17 +87,17 @@
   
         <div class= "row">
             <div class="col-xs-6 col-sm-4"> 
-                <div class="img-product"><img src="../../img/adasdasd.jpg" alt=""></div>
+                <div class="img-product"><img src="Img/adasdasd.jpg" alt=""></div>
                 <div class="name-product">Ốp mới</div>
                 <div class="price-product">12.000</div>
             </div>
             <div class="col-xs-6 col-sm-4"> 
-                <div class="img-product"><img src="../../img/adasdasd.jpg" alt=""></div>
+                <div class="img-product"><img src="Img/adasdasd.jpg" alt=""></div>
                 <div class="name-product">Ốp mới</div>
                 <div class="price-product">12.000</div>
             </div>
             <div class="col-xs-6 col-sm-4"> 
-                <div class="img-product"><img src="../../img/adasdasd.jpg" alt=""></div>
+                <div class="img-product"><img src="Img/adasdasd.jpg" alt=""></div>
                 <div class="name-product">Ốp mới</div>
                 <div class="price-product">12.000</div>
             </div>
@@ -107,17 +109,17 @@
     <h1>Sale</h1>
         <div class= "row">
             <div class="col-xs-6 col-sm-4"> 
-                <div class="img-product"><img src="../../img/adasdasd.jpg" alt=""></div>
+                <div class="img-product"><img src="Img/adasdasd.jpg" alt=""></div>
                 <div class="name-product">Ốp mới</div>
                 <div class="price-product">12.000</div>
             </div>
             <div class="col-xs-6 col-sm-4"> 
-                <div class="img-product"><img src="../../img/adasdasd.jpg" alt=""></div>
+                <div class="img-product"><img src="Img/adasdasd.jpg" alt=""></div>
                 <div class="name-product">Ốp mới</div>
                 <div class="price-product">12.000</div>
             </div>
             <div class="col-xs-6 col-sm-4"> 
-                <div class="img-product"><img src="../../img/adasdasd.jpg" alt=""></div>
+                <div class="img-product"><img src="Img/adasdasd.jpg" alt=""></div>
                 <div class="name-product">Ốp mới</div>
                 <div class="price-product">12.000</div>
             </div>
@@ -161,8 +163,8 @@
         </div>
     </footer>
 
-    <script src="../../js/jquery-3.6.0.min.js"></script>
-    <script src="other/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
-    <script src="../../js/Slide.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="orther/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="js/Slide.js"></script>
 </body>
 </html>
