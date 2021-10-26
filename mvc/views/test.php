@@ -65,7 +65,17 @@
 </div>
 
 
+<?php
 
+if(pg_num_rows($data["img"]) > 0){
+    while($row = pg_fetch_assoc($data["img"])){
+
+        echo $row['nameimg'];
+    }
+
+
+}
+?>
 
 <!-- container product -->
 <div class="container hot">
@@ -78,7 +88,7 @@
 
          
             <div class="col-xs-6 col-sm-4"> 
-                <div class="img-product"><img src="../../img/<? echo $row=['nameimg'] ?>" alt=""></div>
+                <div class="img-product"><img src="../../img/<? echo $row=['nameimg']; ?>" alt=""></div>
                 <div class="name-product">Ốp mới</div>
                 <div class="price-product">12.000</div>
             </div>
