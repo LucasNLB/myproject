@@ -1,6 +1,6 @@
 
 <?php
-include_once "./header_footer/header.php";
+include_once ('mvc/views/header_footer/header.php');
 ?>
 <!-- slide -->
 <div class="slide">
