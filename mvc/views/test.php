@@ -65,17 +65,7 @@
 </div>
 
 
-<?php
 
-if(pg_num_rows($data["img"]) > 0){
-    while($row = pg_fetch_assoc($data["img"])){
-
-        echo $row['nameimg'];
-    }
-
-
-}
-?>
 
 <!-- container product -->
 <div class="container hot">
