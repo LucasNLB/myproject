@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,8 +8,8 @@
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="stylesheet" href="../css/Login&Signup.css">
 </head>
-<body>
-
+<body> -->
+<?php include_once ('mvc/views/header_footer/header.php'); ?>
 <div class="Login_Signup">
     <div class="Login_container">
         <div class="title">

@@ -8,6 +8,7 @@
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <!-- Css -->
     <link rel="stylesheet" href="/css/test.css">
+    <link rel="stylesheet" href="../css/Login&Signup.css">
 
     <!-- owl -->
     <link rel="stylesheet" href="../../other/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
