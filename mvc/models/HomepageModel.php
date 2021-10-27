@@ -7,5 +7,11 @@ class HomepageModel extends DB{
         return pg_query($this->con, $img);
 
     }
+    public function test(){
+
+        $test = "tao dep trai";
+        return $test;
+
+    }
 }
 ?>
