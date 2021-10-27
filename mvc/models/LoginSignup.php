@@ -2,7 +2,7 @@
 class LoginSignup extends DB{
     
      
-    public function Test(){
+    public function SayHi(){
         $test = "BÌnh dẹp trai";
         return $test;
         // if(isset($_POST['submit'])){
