@@ -38,7 +38,7 @@
                 <p>Sign Up</p>
             </div>
 
-            <form action="">
+            <form action="LoginSignup/testSignUp" method="POST" >
                 <div class="form_sigup"> 
                     <div class="logo_form"><i class='fas fa-user-alt'></i></div> 
                     <input type="username" name="" id="" placeholder="Name" class="password">
@@ -46,12 +46,12 @@
 
                 <div class="form_sigup">
                     <div class="logo_form"><i class='fas fa-user-alt'></i></div> 
-                    <input type="username" name="" id="" placeholder="First Name" class="password">
+                    <input type="username" name="emailSignUp" id="" placeholder="First Name" class="password">
                 </div>
 
                 <div class="form_sigup">
                     <div class="logo_form"><i class="fas fa-envelope"></i></div> 
-                    <input type="username" name="" id="" placeholder="Email" class="password">
+                    <input type="username" name="passSignUp" id="" placeholder="Email" class="password">
                 </div>
 
                 <div class="form_sigup">
@@ -64,7 +64,7 @@
                     <input type="username" name="" id="" placeholder="PassWord" class="password">
                 </div>
 
-                <input type="submit" value="Sign Up" class="form_submit">
+                <input type="submit" value="Sign Up" class="form_submit" name="submitSignUp">
 
             </form>
 

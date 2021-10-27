@@ -17,25 +17,15 @@ class LoginSignupModel extends DB{
    
 
     
-    public function checkDB(){
-        if(isset($_POST['submit'])){
+    public function SignUp(){
+        if(isset($_POST['submitSignUp'])){
             // select value of form
-
-
-
-           
-            // $mum_row = pg_num_rows($sql);
+            $Email = pg_escape_string($this->con, $_POST['emailSignUp']);
+            $Pass = pg_escape_string($this->con, $_POST['passSignUp']);
+            // connet database to compare
+            $sql = 'INSERT * FROM public."Login" WHERE email =\''.$Email.'\' and pass = \''.$Pass.'\'';
             
-            // if($mum_row != 0 ){
-            //   $this->view("testimg");
-            // }
-            // else if($mum_row == 0){
-            //   echo("Tài Khoản hoăc Mật Khẩu sai !");
-            // }
-        }
-        else{
-            $erro = "loi";
-            return $erro;
+            return $sql;
         }
         
 

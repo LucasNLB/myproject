@@ -20,6 +20,14 @@ class LoginSignup extends Controller{
         }
     }
 
+    function testSignUp(){
+
+        $signupcheck = $this->model("LoginSignupModel");
+        $result = $signupcheck -> SignUp();
+        echo $result;
+    
+    }
+
 
     function SayHi(){
     
