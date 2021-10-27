@@ -11,11 +11,21 @@ class LoginSignup extends Controller{
     //call model        
     // call views
         
-        $test = $this->model("LoginSignupModel");
+        // $test = $this->model("LoginSignupModel");
         
-        $in = $test->LoginSignup();
+        // $in = $test->LoginSignup();
 
-        echo $in;
+        // echo $in;
+        if(isset($_POST['submit'])){
+            // select value of form
+            $Email = $_POST['email'];
+            echo $Email;
+        }
+        else{
+            $Erro = "Không nhận dữ liệu";
+            echo $Erro;
+        }
+
 
         $this->view("Login&Signup");
 
