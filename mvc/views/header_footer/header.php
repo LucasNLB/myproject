@@ -38,7 +38,7 @@
                     <a href="#"><i class="fas fa-search"></i></a>
                 </span>
                 <span>
-                    <a href="../Login&Signup.php"><i class="fas fa-shopping-cart"></i></a>
+                    <a href="LoginSignup"><i class="fas fa-shopping-cart"></i></a>
                 </span>
                 <span>
                     <a href="#"><i class="fas fa-user"></i></a>
