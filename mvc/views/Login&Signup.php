@@ -31,7 +31,7 @@
         </form>
     </div>
 
-    <!-- <div class="Signup_container">
+    <div class="Signup_container">
 
         <div class="form_container">
             <div class="title">
@@ -69,7 +69,7 @@
             </form>
 
         </div>
-    </div> -->
+    </div>
 </div>
 </body>
 </html>
