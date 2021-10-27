@@ -15,16 +15,16 @@
         <div class="title">
             <p>Login </p>
         </div>
-        <form action="LoginSignup/login" method="POST" >
+        <form action="LoginSignup/login" method="GET" >
             <div class="form_login">
                 <div class="logo_form"><i class="fas fa-envelope"></i></i></div>
-                <input type="username" name="email" id="" placeholder="Email" class="username">
+                <input type="text" name="email" id="" placeholder="Email" class="username">
             </div>
             <div class="form_login">
                 <div class="logo_form"><i class="fas fa-lock"></i></div>                
-                <input type="username" name="pass" id="" placeholder="PassWord" class="password">
+                <input type="password" name="pass" id="" placeholder="PassWord" class="password">
             </div>
-            <input type="submit" value="Login" class="form_submit">
+            <input type="submitlogin" value="Login" class="form_submit">
         </form>
     </div>
 
