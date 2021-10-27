@@ -1,14 +1,21 @@
 <?php
 class LoginSignup extends DB{
-    // select value of form
+    
      
+    public function Test(){
 
+        if(isset($_POST['submit'])){
+            // select value of form
+            $Email = $_POST['email'];
+            echo $Email;
+        }
+    }
    
 
     // connet database to compare
     public function checkDB(){
         if(isset($_POST['submit'])){
-
+            // select value of form
             $Email = pg_escape_string($this->conn, $_POST['email']);
             $Pass = pg_escape_string($this->conn, $_POST['pass']);
 

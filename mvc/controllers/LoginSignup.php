@@ -15,11 +15,10 @@ class LoginSignup extends Controller{
     }
     function login(){
         //call model
-    // $check = $this->model("LoginSignup");
-    // $sql = $check->checkDB();
-    //     // check login
-    // echo  $sql;
-        $this->view("testimg");
+    $check = $this->model("LoginSignup");
+    $sql = $check->Test();
+    echo  $sql;
+        
 
     }
 
