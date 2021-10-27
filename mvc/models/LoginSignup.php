@@ -7,7 +7,7 @@ class LoginSignup extends DB{
 
     // connet database to compare
     public function checkDB(){
-        if(isset($_POST['submitlogin'])){
+        if(isset($_POST['submit'])){
 
             $Email = pg_escape_string($this->conn, $_POST['email']);
             $Pass = pg_escape_string($this->conn, $_POST['pass']);
