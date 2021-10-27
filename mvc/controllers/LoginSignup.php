@@ -15,7 +15,12 @@ class LoginSignup extends Controller{
         
         $result = $logincheck->LoginSignup();
 
-        echo $result;
+        if(pg_num_rows($result) != 0){
+            echo "dang nhap thanh cong";
+        }
+        else{
+            echo "dang nhap that bai";
+        }
 
     //     $mum_row = pg_num_rows($result);
     //   if($mum_row != 0 ){
