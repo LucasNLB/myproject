@@ -1,5 +1,5 @@
 <?php
-class LoginSignup extends DB{
+class LoginSignupModel extends DB{
     
      
     public function LoginSignup(){

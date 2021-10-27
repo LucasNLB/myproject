@@ -15,7 +15,7 @@
         <div class="title">
             <p>Login </p>
         </div>
-        <form action="LoginSignup/SayHi" method="POST" >
+        <form action="LoginSignup/test" method="POST" >
             <div class="form_login">
                 <div class="logo_form"><i class="fas fa-envelope"></i></i></div>
                 <input type="text" name="email" id="" placeholder="Email" class="username">

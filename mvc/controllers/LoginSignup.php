@@ -5,13 +5,13 @@
 class LoginSignup extends Controller{
 
     // Must have SayHi()
-    function SayHi(){
+    function test(){
 
 
     //call model        
     // call views
         
-        $test = $this->model("LoginSignup");
+        $test = $this->model("LoginSignupModel");
         echo $test;
 
     }
