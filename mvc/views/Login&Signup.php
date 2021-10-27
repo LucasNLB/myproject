@@ -15,7 +15,7 @@
         <div class="title">
             <p>Login </p>
         </div>
-        <form action="LoginSignup/login" method="POST" >
+        <form action="LoginSignup/login" method="GET" >
             <div class="form_login">
                 <div class="logo_form"><i class="fas fa-envelope"></i></i></div>
                 <input type="text" name="email" id="" placeholder="Email" class="username">
@@ -28,7 +28,7 @@
         </form>
     </div>
 
-    <div class="Signup_container">
+    <!-- <div class="Signup_container">
 
         <div class="form_container">
             <div class="title">
@@ -66,7 +66,7 @@
             </form>
 
         </div>
-    </div>
+    </div> -->
 </div>
 </body>
 </html>
