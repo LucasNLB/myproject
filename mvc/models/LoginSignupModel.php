@@ -12,8 +12,8 @@ class LoginSignupModel extends DB{
             $Pass = pg_escape_string($this->con, $_POST['pass']);
             // connet database to compare
             $sql = 'SELECT * FROM public."Login" WHERE email =\''.$Email.'\' and pass = \''.$Pass.'\'';
-            $query = pg_query($this->con, $sql);
-            return $query;
+            
+            return pg_query($this->con, $sql);
         }
         else{
             $Erro = "Không nhận dữ liệu";

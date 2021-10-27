@@ -13,9 +13,7 @@ class LoginSignup extends Controller{
         
         $logincheck = $this->model("LoginSignupModel");
         
-        $result = $logincheck->LoginSignup();
-
-        
+        $result = $logincheck->LoginSignup();   
         $mum_row = pg_num_rows($result);
       if($mum_row != 0 ){
         $this->view("test.php"); 
