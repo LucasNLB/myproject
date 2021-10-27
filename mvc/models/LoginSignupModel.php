@@ -25,7 +25,7 @@ class LoginSignupModel extends DB{
             // connet database to compare
             $sql = 'INSERT INTO public."Login" (email, pass) VALUES (\''.$Email.'\' , \''.$Pass.'\')';
             
-            return $sql;
+            return pg_query($this->con, $sql);
         }
         
 

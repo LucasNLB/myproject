@@ -24,7 +24,7 @@ class LoginSignup extends Controller{
 
         $signupcheck = $this->model("LoginSignupModel");
         $result = $signupcheck -> SignUp();
-        echo $result;
+        header("location:../../index.php");
     
     }
 
