@@ -8,13 +8,7 @@
 </head>
 <body>
 <?php
-            if(pg_num_rows($data["img"]) > 0){
-                while($row = pg_fetch_assoc($data["img"])){
-
-
-                echo $row ['id'];
-
-                }}
+            echo "Thanhf coong";
 ?>
     
 </body>
