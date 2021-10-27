@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="../../other/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="../../other/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
     <!-- bootstrap -->
     <link rel="stylesheet" href="../../other/bootstrap-5.1.3-dist/css/bootstrap.min.css">
 
@@ -37,7 +38,7 @@
                     <a href="#"><i class="fas fa-search"></i></a>
                 </span>
                 <span>
-                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                    <a href="../Login&Signup.php"><i class="fas fa-shopping-cart"></i></a>
                 </span>
                 <span>
                     <a href="#"><i class="fas fa-user"></i></a>
