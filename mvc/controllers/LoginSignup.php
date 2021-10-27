@@ -11,16 +11,18 @@ class LoginSignup extends Controller{
     //call model        
     // call views
         
-        $test = $this->model("LoginSignupModel");
+        $logincheck = $this->model("LoginSignupModel");
         
-        $in = $test->LoginSignup();
+        $result = $logincheck->LoginSignup();
 
-        echo $in;
         
-
-
-        $this->view("Login&Signup");
-
+        $mum_row = pg_num_rows($result);
+      if($mum_row != 0 ){
+        header("location:../index.php"); 
+      }
+      else if($mum_row == 0){
+        echo("Tài Khoản hoăc Mật Khẩu sai !");
+      }
     }
 
 
