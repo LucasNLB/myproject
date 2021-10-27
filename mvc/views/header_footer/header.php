@@ -29,7 +29,7 @@
     <!-- header -->
     <header>
         <div class="Logo" style="text-align: center;">
-            <a href=""> <img src="../../img/LogoShop.png" alt="" width="100px" height="100px"> </a>
+            <a href="/"> <img src="../../img/LogoShop.png" alt="" width="100px" height="100px"> </a>
             <div class="Intro">
                 <p class="p1"><i>Supply all kinds of cases for iphone models </i></p>
                 <p class="p2"><i> Let us make your phone different</i></p>

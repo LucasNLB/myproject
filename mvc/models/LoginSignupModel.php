@@ -22,7 +22,7 @@ class LoginSignupModel extends DB{
             // select value of form
             $Email = pg_escape_string($this->con, $_POST['emailSignUp']);
             $Pass = pg_escape_string($this->con, $_POST['passSignUp']);
-            // connet database to compare
+            // connet database to insert
             $sql = 'INSERT INTO public."Login" (email, pass) VALUES (\''.$Email.'\' , \''.$Pass.'\')';
             
             return pg_query($this->con, $sql);
@@ -31,7 +31,7 @@ class LoginSignupModel extends DB{
 
         
 
-        // return pg_query($this->con, $sql);
+        
 
     }
 }
