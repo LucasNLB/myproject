@@ -11,9 +11,9 @@ class LoginSignup extends Controller{
     //call model        
     // call views
         
-        $test = $this->model("HomepageModel");
+        $test = $this->model("LoginSignupModel");
         
-        $in = $test->test();
+        $in = $test->LoginSignup();
 
         echo $in;
 
