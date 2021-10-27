@@ -18,7 +18,7 @@ class LoginSignup extends Controller{
         
         $mum_row = pg_num_rows($result);
       if($mum_row != 0 ){
-        header("location:../index.php"); 
+        $this->view("test.php"); 
       }
       else if($mum_row == 0){
         echo("Tài Khoản hoăc Mật Khẩu sai !");
