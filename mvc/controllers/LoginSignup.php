@@ -8,27 +8,16 @@ class LoginSignup extends Controller{
     function test(){
 
 
-    //call model        
-    // call views
-        
+        //call model
         $logincheck = $this->model("LoginSignupModel");
-        
         $result = $logincheck->LoginSignup();
-
+        // check model condition
         if(pg_num_rows($result) != 0){
-            echo "dang nhap thanh cong";
+            $this->view("test");
         }
         else{
             echo "dang nhap that bai";
         }
-
-    //     $mum_row = pg_num_rows($result);
-    //   if($mum_row != 0 ){
-    //     echo "dang nhap thanh cong";
-    //   }
-    //   else if($mum_row == 0){
-    //     echo"Tài Khoản hoăc Mật Khẩu sai !";
-    //   }
     }
 
 
