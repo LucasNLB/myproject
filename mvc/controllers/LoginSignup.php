@@ -13,14 +13,17 @@ class LoginSignup extends Controller{
         
         $logincheck = $this->model("LoginSignupModel");
         
-        $result = $logincheck->LoginSignup();   
-        $mum_row = pg_num_rows($result);
-      if($mum_row != 0 ){
-        $this->view("test.php"); 
-      }
-      else if($mum_row == 0){
-        echo("Tài Khoản hoăc Mật Khẩu sai !");
-      }
+        $result = $logincheck->LoginSignup();
+
+        echo $result;
+
+    //     $mum_row = pg_num_rows($result);
+    //   if($mum_row != 0 ){
+    //     echo "dang nhap thanh cong";
+    //   }
+    //   else if($mum_row == 0){
+    //     echo"Tài Khoản hoăc Mật Khẩu sai !";
+    //   }
     }
 
 

@@ -13,7 +13,7 @@ class LoginSignupModel extends DB{
             // connet database to compare
             $sql = 'SELECT * FROM public."Login" WHERE email =\''.$Email.'\' and pass = \''.$Pass.'\'';
             
-            return pg_query($this->con, $sql);
+            return $sql;
         }
         else{
             $Erro = "Không nhận dữ liệu";
