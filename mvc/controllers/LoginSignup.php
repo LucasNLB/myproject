@@ -10,13 +10,14 @@ class LoginSignup extends Controller{
 
     //call model        
     // call views
-        $this->view("Login&Signup");
+        
+        $test = $this->model("LoginSignup");
+        echo $test;
 
     }
     function login(){
         //call model
-        $test = $this->model("LoginSignup");
-        echo $test;
+        
         
 
     }
