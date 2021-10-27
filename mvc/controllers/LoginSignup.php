@@ -15,20 +15,10 @@ class LoginSignup extends Controller{
     }
     function login(){
         //call model
-        
-        // check login
-    if(isset($_POST['submitlogin'])){
+    $check = $this->model("LoginSignup");
 
-        $login = $this->model("LoginSignup");
-        $sql =   $login->checkDB();
-        $mum_row = pg_num_rows($sql);
-        if($mum_row != 0 ){
-          $this->view("testimg");
-        }
-        else if($mum_row == 0){
-          echo("Tài Khoản hoăc Mật Khẩu sai !");
-        }
-      }
+        // check login
+    echo $sql = $check->checkDB();
 
 
     }
