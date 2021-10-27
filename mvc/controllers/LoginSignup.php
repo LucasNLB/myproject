@@ -16,7 +16,7 @@ class LoginSignup extends Controller{
     function login(){
         //call model
     $check = $this->model("LoginSignup");
-    $sql = $check->Test();
+    $sql = $check->test();
     echo  $sql;
         
 
