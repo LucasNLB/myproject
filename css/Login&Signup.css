@@ -1,0 +1,63 @@
+/* Login&Signup */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Login */
+.Login_container{
+    float: left;
+    width: 50%;
+    height: 500px;
+    background-color: white;
+}
+.Signup_container{
+    width: 50%;
+    float: right;
+    height: 500px;
+
+    text-align: center;
+    align-items: center;
+    padding-top: 100px;
+
+}
+.Login_container{
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    border-right: blanchedalmond solid 1px;
+    
+}
+.form_login{
+    border: gray solid 1px;
+    margin: 20px 200px;
+}
+.logo_form{
+    display: inline-block;
+}
+.username,
+.password{
+    border: none;
+    background:none;
+    outline: none;
+    height: 60px;
+    padding: 0px 60px;
+}
+.form_submit{
+  position: relative;
+  text-decoration: none;
+  border: none; 
+  background:none;
+  outline: none;
+  border: gray solid 1px;
+  padding: 20px 50px;
+
+
+}
+/* signup */
+.form_sigup{
+    border: gray solid 1px;
+    margin: 20px 200px;
+}
