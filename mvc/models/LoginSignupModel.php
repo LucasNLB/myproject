@@ -9,6 +9,10 @@ class LoginSignupModel extends DB{
             $Email = $_POST['email'];
             return $Email;
         }
+        else{
+            $Erro = "Không nhận dữ liệu";
+            return $Erro;
+        }
     }
    
 
