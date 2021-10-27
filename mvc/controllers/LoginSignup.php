@@ -13,7 +13,7 @@ class LoginSignup extends Controller{
         $result = $logincheck->LoginSignup();
         // check model condition
         if(pg_num_rows($result) != 0){
-            $this->view("test");
+            header("location:../index.php");
         }
         else{
             echo "dang nhap that bai";
