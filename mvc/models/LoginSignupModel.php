@@ -6,8 +6,12 @@ class LoginSignupModel extends DB{
 
         if(isset($_POST['submit'])){
             // select value of form
-            $Email = $_POST['email'];
-            return $Email;
+            $Email = pg_escape_string($this->conn, $_POST['email']);
+            $Pass = pg_escape_string($this->conn, $_POST['pass']);
+
+            // connet database to compare
+            $sql = 'SELECT * FROM public."Login" WHERE email =\''.$Email.'\'and pass = \''.$Pass.'\'';
+            return $sql;
         }
         else{
             $Erro = "Không nhận dữ liệu";
@@ -16,37 +20,33 @@ class LoginSignupModel extends DB{
     }
    
 
-    // connet database to compare
-    // public function checkDB(){
-    //     if(isset($_POST['submit'])){
-    //         // select value of form
-    //         $Email = pg_escape_string($this->conn, $_POST['email']);
-    //         $Pass = pg_escape_string($this->conn, $_POST['pass']);
+    
+    public function checkDB(){
+        if(isset($_POST['submit'])){
+            // select value of form
 
 
-    //         $sql = 'SELECT * FROM public."Login" WHERE email =\''.$Email.'\'and pass = \''.$Pass.'\'';
 
+           
+            // $mum_row = pg_num_rows($sql);
             
-    //         return $sql;
-    //         // $mum_row = pg_num_rows($sql);
-            
-    //         // if($mum_row != 0 ){
-    //         //   $this->view("testimg");
-    //         // }
-    //         // else if($mum_row == 0){
-    //         //   echo("Tài Khoản hoăc Mật Khẩu sai !");
-    //         // }
-    //     }
-    //     else{
-    //         $erro = "loi";
-    //         return $erro;
-    //     }
+            // if($mum_row != 0 ){
+            //   $this->view("testimg");
+            // }
+            // else if($mum_row == 0){
+            //   echo("Tài Khoản hoăc Mật Khẩu sai !");
+            // }
+        }
+        else{
+            $erro = "loi";
+            return $erro;
+        }
         
 
         
 
-    //     // return pg_query($this->con, $sql);
+        // return pg_query($this->con, $sql);
 
-    // }
+    }
 }
 ?>
