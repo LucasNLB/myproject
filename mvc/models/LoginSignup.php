@@ -2,7 +2,7 @@
 class LoginSignup extends DB{
     
      
-    public function SayHi(){
+    public function LoginSignup(){
         $test = "BÌnh dẹp trai";
         return $test;
         // if(isset($_POST['submit'])){
@@ -14,36 +14,36 @@ class LoginSignup extends DB{
    
 
     // connet database to compare
-    public function checkDB(){
-        if(isset($_POST['submit'])){
-            // select value of form
-            $Email = pg_escape_string($this->conn, $_POST['email']);
-            $Pass = pg_escape_string($this->conn, $_POST['pass']);
+    // public function checkDB(){
+    //     if(isset($_POST['submit'])){
+    //         // select value of form
+    //         $Email = pg_escape_string($this->conn, $_POST['email']);
+    //         $Pass = pg_escape_string($this->conn, $_POST['pass']);
 
 
-            $sql = 'SELECT * FROM public."Login" WHERE email =\''.$Email.'\'and pass = \''.$Pass.'\'';
+    //         $sql = 'SELECT * FROM public."Login" WHERE email =\''.$Email.'\'and pass = \''.$Pass.'\'';
 
             
-            return $sql;
-            // $mum_row = pg_num_rows($sql);
+    //         return $sql;
+    //         // $mum_row = pg_num_rows($sql);
             
-            // if($mum_row != 0 ){
-            //   $this->view("testimg");
-            // }
-            // else if($mum_row == 0){
-            //   echo("Tài Khoản hoăc Mật Khẩu sai !");
-            // }
-        }
-        else{
-            $erro = "loi";
-            return $erro;
-        }
+    //         // if($mum_row != 0 ){
+    //         //   $this->view("testimg");
+    //         // }
+    //         // else if($mum_row == 0){
+    //         //   echo("Tài Khoản hoăc Mật Khẩu sai !");
+    //         // }
+    //     }
+    //     else{
+    //         $erro = "loi";
+    //         return $erro;
+    //     }
         
 
         
 
-        // return pg_query($this->con, $sql);
+    //     // return pg_query($this->con, $sql);
 
-    }
+    // }
 }
 ?>
