@@ -46,12 +46,12 @@
 
                 <div class="form_sigup">
                     <div class="logo_form"><i class='fas fa-user-alt'></i></div> 
-                    <input type="username" name="emailSignUp" id="" placeholder="First Name" class="password">
+                    <input type="username" name="" id="" placeholder="First Name" class="password">
                 </div>
 
                 <div class="form_sigup">
                     <div class="logo_form"><i class="fas fa-envelope"></i></div> 
-                    <input type="username" name="passSignUp" id="" placeholder="Email" class="password">
+                    <input type="username" name="emailSignUp" id="" placeholder="Email" class="password">
                 </div>
 
                 <div class="form_sigup">
@@ -61,7 +61,7 @@
                 
                 <div class="form_sigup">
                     <div class="logo_form"><i class="fas fa-lock"></i></div> 
-                    <input type="username" name="" id="" placeholder="PassWord" class="password">
+                    <input type="password" name="passSignUp" id="" placeholder="PassWord" class="password">
                 </div>
 
                 <input type="submit" value="Sign Up" class="form_submit" name="submitSignUp">
