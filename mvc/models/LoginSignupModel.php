@@ -3,13 +3,12 @@ class LoginSignupModel extends DB{
     
      
     public function LoginSignup(){
-        $test = "BÌnh dẹp trai";
-        return $test;
-        // if(isset($_POST['submit'])){
-        //     // select value of form
-        //     $Email = $_POST['email'];
-        //     echo $Email;
-        // }
+
+        if(isset($_POST['submit'])){
+            // select value of form
+            $Email = $_POST['email'];
+            return $Email;
+        }
     }
    
 
