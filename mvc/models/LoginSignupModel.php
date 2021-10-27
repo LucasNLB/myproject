@@ -6,8 +6,11 @@ class LoginSignupModel extends DB{
 
         if(isset($_POST['submit'])){
             // select value of form
-            $Email = pg_escape_string($this->conn, $_POST['email']);
-            $Pass = pg_escape_string($this->conn, $_POST['pass']);
+            $Email = $_POST['email'];
+            $Pass = $_POST['pass'];
+
+            // $Email = pg_escape_string($this->conn, $_POST['email']);
+            // $Pass = pg_escape_string($this->conn, $_POST['pass']);
 
             // connet database to compare
             $sql = 'SELECT * FROM public."Login" WHERE email =\''.$Email.'\'and pass = \''.$Pass.'\'';
