@@ -17,6 +17,12 @@ class LoginSignup extends Controller{
         $this->view("Login&Signup");
 
     }
+
+
+    function SayHi(){
+    
+        $this->view("Login&Signup");
+        }
     function login(){
         //call model
         
