@@ -23,12 +23,14 @@ class LoginSignup extends Controller{
         $sql =   $login->checkDB();
         $mum_row = pg_num_rows($sql);
         if($mum_row != 0 ){
-          $this->view("testimg");
+          
         }
         else if($mum_row == 0){
           echo("Tài Khoản hoăc Mật Khẩu sai !");
         }
       }
+
+    $this->view("testimg");
     }
 
     function Show($a, $b){        
