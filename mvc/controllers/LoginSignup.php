@@ -15,10 +15,12 @@ class LoginSignup extends Controller{
     }
     function login(){
         //call model
-        $login = $this->model("LoginSignup");
-        $sql =   $login->checkDB();
+        
         // check login
     if(isset($_POST['submit'])){
+
+        $login = $this->model("LoginSignup");
+        $sql =   $login->checkDB();
         $mum_row = pg_num_rows($sql);
         if($mum_row != 0 ){
           $this->view("testimg");
