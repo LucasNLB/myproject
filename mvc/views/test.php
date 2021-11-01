@@ -25,7 +25,7 @@ include_once ('mvc/views/header_footer/header.php');
 
          
             <div class="col-xs-6 col-sm-4"> 
-                <a href="/ProductDetail"><div class="img-product"><img src="../../img/<?php echo $row['nameimg']; ?>" alt="" ></div></a>
+                <a href="/ProductDetail/producID/<?php echo $row['id']; ?>"><div class="img-product"><img src="../../img/<?php echo $row['nameimg']; ?>" alt="" ></div></a>
                 <a href="/ProductDetail"><div class="name-product">Ốp mới</div></a>
                 <a href="/ProductDetail"> <div class="price-product">12.000</div></a>
             </div>
