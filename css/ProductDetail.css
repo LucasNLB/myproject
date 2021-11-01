@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.btnOder{
+    color: white;
+    margin-top: 10px;
+    padding: 15px 50px;
+    text-decoration:none;
+    border: none;
+    text-align: center;
+    background-color: black;
+    
+}
+.btnOder:hover{
+    background-color: #404040;
+     
+}
+
+.row{
+text-align: center;
+}
