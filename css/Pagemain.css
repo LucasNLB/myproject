@@ -1,0 +1,39 @@
+/* pagemain */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.Hot_container{
+    width: 100%;
+    height: 250px;
+    background-color: blue;
+}
+.New_container{
+    width: 100%;
+    height: 250px;
+    background-color: red;
+}
+.Sale_container{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+}
+
+.container{
+    margin-top: 50px;
+}
+.productName{
+    text-align: center;
+    margin-top: 20px;
+}
+.priceProduct{
+    text-align: center;
+    margin-top: 20px;
+}
+.box-oder{
+    text-align: center;
+    margin-top: 20px;
+}
+
