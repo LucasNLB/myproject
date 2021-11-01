@@ -8,12 +8,12 @@ class ProductDetail extends Controller{
     function ProducID($id){
     // call models
         $img = $this->model("HomepageModel");
-        
+        echo $img ->productdetail($id);
         
     // call views
-        $this->view("ProductDetail", [
-            $img => $img->productdetail($id)
-        ]);
+        // $this->view("ProductDetail", [
+        //     $img => $img->productdetail($id)
+        // ]);
 
     }
 

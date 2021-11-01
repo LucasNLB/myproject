@@ -9,8 +9,9 @@ class HomepageModel extends DB{
     }
     public function productdetail($id){
         $img = " SELECT * FROM public.imghome WHERE id ='$id' ";
-        
-        return pg_query($this->con, $img);
+
+        // return pg_query($this->con, $img);
+        return $img;
         
     }
  
