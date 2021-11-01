@@ -20,7 +20,7 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-xs-8 col-sm-8" ><img  src="../Img/adasdasd.jpg" alt="" width="100%" height="450vh" ></div>
+        <div class="col-xs-8 col-sm-8" ><img  src="../../img/<?php echo $row['nameimg']; ?>" alt="" width="100%" height="450vh" ></div>
         <div class="col-xs-4 col-sm-4">
             <div class="productName">ádasdasd</div>
             <div class="priceProduct">15000000</div>

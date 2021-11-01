@@ -7,6 +7,10 @@ class HomepageModel extends DB{
         return pg_query($this->con, $img);
 
     }
+    public function productdetail($id){
+        $img = "SELECT * FROM public.imghome WHERE email =\''.$id.'\'";
+        return pg_query($this->con, $img);
+    }
  
 }
 ?>
