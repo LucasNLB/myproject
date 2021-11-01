@@ -12,7 +12,7 @@ class ProductDetail extends Controller{
         
     // call views
         $this->view("ProductDetail", [
-            $img => $img->productdetail($id)
+            "img" => $img->productdetail($id)
         ]);
 
     }

@@ -19,6 +19,7 @@
 
 
 <div class="container">
+    <?php
 if(pg_num_rows($data["img"]) > 0){
             while($row = pg_fetch_assoc($data["img"])){ ?>
     <div class="row">
@@ -31,7 +32,8 @@ if(pg_num_rows($data["img"]) > 0){
                 <button class="btnOder">Mua ngay</button>
             </div>
         </div>
-    </div> }} ?> 
+    </div> 
+    <?php   }} ?>
 </div>
 
 <div class="container">
