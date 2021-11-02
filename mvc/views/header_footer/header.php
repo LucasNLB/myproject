@@ -7,7 +7,7 @@
     <title>Document</title>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <!-- Css -->
-    <link rel="stylesheet" href="/css/test.css">
+    <link rel="stylesheet" href="../../css/test.css">
     <!-- <link rel="stylesheet" href="../css/Login&Signup.css"> -->
     <!-- <link rel="stylesheet" href="../../css/ProductDetail.css"> -->
 
