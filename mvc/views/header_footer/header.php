@@ -41,10 +41,10 @@
                     <a href="#"><i class="fas fa-search"></i></a>
                 </span>
                 <span>
-                    <a href="LoginSignup"><i class="fas fa-shopping-cart"></i></a>
+                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
                 </span>
                 <span>
-                    <a href="#"><i class="fas fa-user"></i></a>
+                    <a href="https://gcs0804nguyenletanbinh.herokuapp.com/LoginSignup"><i class="fas fa-user"></i></a>
                 </span>
                 
             </div>
