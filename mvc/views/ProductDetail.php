@@ -4,7 +4,7 @@ include_once ('mvc/views/header_footer/header.php');
 
 
 
-<div class="container">
+<div class="container productdetail">
     <?php
 if(pg_num_rows($data["img"]) > 0){
             while($row = pg_fetch_assoc($data["img"])){ ?>
