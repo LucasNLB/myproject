@@ -9,7 +9,7 @@
     <!-- Css -->
     <link rel="stylesheet" href="../../css/testnew.css">
     <link rel="stylesheet" href="../css/Login&Signup.css">
-    <link rel="stylesheet" href="../../css/ProductDetail.css">
+    <link rel="stylesheet" href="../../css/ProductDetailnew.css">
 
 
     <!-- owl -->
