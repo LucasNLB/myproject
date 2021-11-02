@@ -1,20 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../../css/Pagemain.css">
-    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
-    <script src="jquery.min.js"></script>
-    <script src="owlcarousel/owl.carousel.min.js"></script>
-    <link rel="stylesheet" href="../../other/bootstrap-5.1.3-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../css/ProductDetail.css">
-</head>
-
-<body>
+<?php
+include_once ('mvc/views/header_footer/header.php');
+?>
 
 
 
@@ -79,6 +65,6 @@ if(pg_num_rows($data["img"]) > 0){
 </div>
 
 
-
-</body>
-</html>
+<?php
+include_once ('mvc/views/header_footer/footer.php');
+?>

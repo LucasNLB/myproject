@@ -9,6 +9,8 @@
     <!-- Css -->
     <link rel="stylesheet" href="/css/test.css">
     <link rel="stylesheet" href="../css/Login&Signup.css">
+    <link rel="stylesheet" href="../../css/ProductDetail.css">
+
 
     <!-- owl -->
     <link rel="stylesheet" href="../../other/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
