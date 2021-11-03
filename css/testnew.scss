@@ -157,16 +157,16 @@ footer{
   
 .name-product{
     text-decoration:none;
-      color:#222;
-      padding:20px;
-      background:#efefef;
-      text-transform:uppercase;
-      text-align:center;
-      @include magic-border(4px, #222, 0.2s, 1);
-      font-family:'Oswald';
-      margin:20px;
-      flex-grow:1;
-      cursor:pointer;
+    color:#222;
+    padding:20px;
+    background:#efefef;
+    text-transform:uppercase;
+    text-align:center;
+    @include magic-border(2px, blue, 0.3s, 0);
+    font-family:'Oswald';
+    margin:20px;
+    flex-grow:1;
+    cursor:pointer;
 }
 
 
