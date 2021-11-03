@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    
     <!-- Css -->
     <link rel="stylesheet" href="../../css/testnew.css">
     <link rel="stylesheet" href="../css/Login&Signup.css">
@@ -20,7 +21,9 @@
     <!-- bootstrap -->
     <link rel="stylesheet" href="../../other/bootstrap-5.1.3-dist/css/bootstrap.min.css">
 
-
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
 
 </head>
 <body>
@@ -34,7 +37,7 @@
             <a href="/"> <img src="../../img/LogoShop.png" alt="" width="100px" height="100px"> </a>
             <div class="Intro">
                 <p class="p1"><i>Supply all kinds of cases for iphone models </i></p>
-                <p class="p2"><i> Let us make your phone different</i></p>
+                <p class="p2"><i>Let us make your phone different</i></p>
             </div>
             <div class="Search_Cart_login">
                 <span>
