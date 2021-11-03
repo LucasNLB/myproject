@@ -31,8 +31,8 @@ text-align: center;
 /* SGV css name product */
 
   .shape {
-    stroke-dasharray: 0 580;
-    stroke-dashoffset: 580;
+    stroke-dasharray: 0 330;
+    stroke-dashoffset: 330;
     stroke-width: 4px;
     fill: transparent;
     stroke: #a0e0f4;
@@ -55,7 +55,7 @@ text-align: center;
   .shape-border {
     stroke-width: 4px;
     stroke-dashoffset: 0;
-    stroke-dasharray: 480 100;
+    stroke-dasharray: 260 60;
   }
   .svg-wrapper{
       text-align: center;
