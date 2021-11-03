@@ -15,7 +15,7 @@ if(pg_num_rows($data["img"]) > 0){
         <div class="svg-wrapper">
             <svg height="60" width="520" xmlns="http://www.w3.org/2000/svg">
                 <rect class="shape" height="60" width="520" />
-                <div class="productName">Wolfsrudel Design</div>
+                <div class="text">Wolfsrudel Design</div>
             </svg>
         </div>
             <!-- <div class="productName">ádasdasd</div> -->
