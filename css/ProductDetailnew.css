@@ -43,7 +43,6 @@ text-align: center;
   }
   .text {
     font-family: 'David Libre';
-    text-align: center;
     /* font-size: 22px; */
     /* line-height: 32px;
     letter-spacing: 8px; */
@@ -59,4 +58,7 @@ text-align: center;
     stroke-width: 4px;
     stroke-dashoffset: 0;
     stroke-dasharray: 480 100;
+  }
+  .svg-wrapper{
+      text-align: center;
   }
