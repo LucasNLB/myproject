@@ -26,8 +26,8 @@ include_once ('mvc/views/header_footer/header.php');
          
             <div class="col-xs-6 col-sm-4"> 
                 <a href="/ProductDetail/producID/<?php echo $row['id']; ?>"><div class="img-product"><img src="../../img/<?php echo $row['nameimg']; ?>" alt="" ></div></a>
-                <a href="/ProductDetail"><div class="name-product">Ốp mới</div></a>
-                <a href="/ProductDetail"> <div class="price-product">12.000</div></a>
+                <a href="/ProductDetail/producID/" class="name-product">Ốp mới</a>
+                <a href="/ProductDetail/producID/" class="price-product">12.000</a>
             </div>
 
             <?php   }} ?>
@@ -40,18 +40,18 @@ include_once ('mvc/views/header_footer/header.php');
         <div class= "row">
         <div class="col-xs-6 col-sm-4"> 
                 <div class="img-product"><img src="../../img/Slide2.jpg" alt=""></div>
-                <div class="name-product">Ốp mới</div>
-                <div class="price-product">12.000</div>
+                <a href="/ProductDetail/producID/" class="name-product">Ốp mới</a>
+                <a href="/ProductDetail/producID/" class="price-product">12.000</a>
             </div>
             <div class="col-xs-6 col-sm-4"> 
                 <div class="img-product"><img src="../../img/Slide2.jpg" alt=""></div>
-                <div class="name-product">Ốp mới</div>
-                <div class="price-product">12.000</div>
+                <a href="/ProductDetail/producID/" class="name-product">Ốp mới</a>
+                <a href="/ProductDetail/producID/" class="price-product">12.000</a>
             </div>
             <div class="col-xs-6 col-sm-4"> 
                 <div class="img-product"><img src="../../img/Slide2.jpg" alt=""></div>
-                <div class="name-product">Ốp mới</div>
-                <div class="price-product">12.000</div>
+                <a href="/ProductDetail/producID/" class="name-product">Ốp mới</a>
+                <a href="/ProductDetail/producID/" class="price-product">12.000</a>
             </div>
         </div>
 
@@ -62,18 +62,18 @@ include_once ('mvc/views/header_footer/header.php');
         <div class= "row">
         <div class="col-xs-6 col-sm-4"> 
                 <div class="img-product"><img src="../../img/Slide2.jpg" alt=""></div>
-                <div class="name-product">Ốp mới</div>
-                <div class="price-product">12.000</div>
+                <a href="/ProductDetail/producID/" class="name-product">Ốp mới</a>
+                <a href="/ProductDetail/producID/" class="price-product">12.000</a>
             </div>
             <div class="col-xs-6 col-sm-4"> 
                 <div class="img-product"><img src="../../img/Slide2.jpg" alt=""></div>
-                <div class="name-product">Ốp mới</div>
-                <div class="price-product">12.000</div>
+                <a href="/ProductDetail/producID/" class="name-product">Ốp mới</a>
+                <a href="/ProductDetail/producID/" class="price-product">12.000</a>
             </div>
             <div class="col-xs-6 col-sm-4"> 
                 <div class="img-product"><img src="../../img/Slide2.jpg" alt=""></div>
-                <div class="name-product">Ốp mới</div>
-                <div class="price-product">12.000</div>
+                <a href="/ProductDetail/producID/" class="name-product">Ốp mới</a>
+                <a href="/ProductDetail/producID/" class="price-product">12.000</a>
             </div>
         </div>
 </div>
