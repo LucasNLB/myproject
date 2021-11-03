@@ -2,6 +2,14 @@
 include_once ('mvc/views/header_footer/header.php');
 ?>
 
+<script>
+$(function() {
+  $('.shape').addClass("shape-border");
+  $('.svg-wrapper').click(function() {
+    $('.shape').toggleClass('shape-border');
+  });
+});
+</script>
 
 
 <div class="container productdetail">
