@@ -39,7 +39,7 @@ text-align: center;
     border-bottom: 5px solid black;
     transition: stroke-width 2.7s, stroke-dashoffset 2.7s, stroke-dasharray 1.3s;
     transition-delay: 0s;
-    fill: #152349;  
+    fill: white;  
   }
   .text {
     font-family: 'David Libre';
