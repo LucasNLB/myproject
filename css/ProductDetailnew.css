@@ -29,14 +29,7 @@ text-align: center;
 
 
 /* SGV css name product */
-.svg-wrapper {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-      margin: 0 auto;
-    width: 520px;  
-    text-align: center;
-  }
+
   .shape {
     stroke-dasharray: 0 580;
     stroke-dashoffset: 580;
@@ -46,7 +39,7 @@ text-align: center;
     border-bottom: 5px solid black;
     transition: stroke-width 2.7s, stroke-dashoffset 2.7s, stroke-dasharray 1.3s;
     transition-delay: 0s;
-    fill: rgb(20,20,20);  
+    fill: white;  
   }
   .text {
     font-family: 'David Libre';
