@@ -171,14 +171,14 @@ footer {
   background-size: 100% 2px, 2px 200%, 2px 200%, 0% 2px, 0% 2px;
   background-position: 50% 100%, 0% 0%, 100% 0%, 100% 0%, 0% 0%;
   background-repeat: no-repeat, no-repeat;
-  -webkit-transition: background-position 0.3s ease-in-out, background-size 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
-  transition: background-position 0.3s ease-in-out, background-size 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
-  transition: transform 0.3s ease-in-out, background-position 0.3s ease-in-out, background-size 0.3s ease-in-out;
-  transition: transform 0.3s ease-in-out, background-position 0.3s ease-in-out, background-size 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  -webkit-transition: background-position 0.1s ease-in-out, background-size 0.1s ease-in-out, -webkit-transform 0.1s ease-in-out;
+  transition: background-position 0.1s ease-in-out, background-size 0.1s ease-in-out, -webkit-transform 0.1s ease-in-out;
+  transition: transform 0.1s ease-in-out, background-position 0.1s ease-in-out, background-size 0.1s ease-in-out;
+  transition: transform 0.1s ease-in-out, background-position 0.1s ease-in-out, background-size 0.1s ease-in-out, -webkit-transform 0.1s ease-in-out;
   -webkit-transform: scaleX(0) rotate(0deg);
           transform: scaleX(0) rotate(0deg);
-  -webkit-transition-delay: 0.6s, 0.3s, 0s;
-          transition-delay: 0.6s, 0.3s, 0s;
+  -webkit-transition-delay: 0.2s, 0.1s, 0s;
+          transition-delay: 0.2s, 0.1s, 0s;
 }
 
 .name-product:hover:before {
@@ -186,7 +186,7 @@ footer {
   background-position: 50% 100%, 0% 100%, 100% 100%, 100% 0%, 0% 0%;
   -webkit-transform: scaleX(1) rotate(0deg);
           transform: scaleX(1) rotate(0deg);
-  -webkit-transition-delay: 0s, 0.3s, 0.6s;
-          transition-delay: 0s, 0.3s, 0.6s;
+  -webkit-transition-delay: 0s, 0.1s, 0.2s;
+          transition-delay: 0s, 0.1s, 0.2s;
 }
 /*# sourceMappingURL=testnew.css.map */
