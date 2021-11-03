@@ -11,7 +11,14 @@ if(pg_num_rows($data["img"]) > 0){
     <div class="row">
         <div class="col-xs-8 col-sm-8" ><img  src="../../img/<?php echo $row['nameimg']; ?>" alt="" width="100%" height="450vh" ></div>
         <div class="col-xs-4 col-sm-4">
-            <div class="productName">ádasdasd</div>
+
+        <div class="svg-wrapper">
+            <svg height="60" width="520" xmlns="http://www.w3.org/2000/svg">
+                <rect class="shape" height="60" width="520" />
+                <div class="productName">Wolfsrudel Design</div>
+            </svg>
+        </div>
+            <!-- <div class="productName">ádasdasd</div> -->
             <div class="priceProduct">15000000</div>
             <div class="box-oder">
                 <button class="btnOder">Thêm vào giỏ hảng</button><br>
