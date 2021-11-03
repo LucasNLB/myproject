@@ -23,12 +23,12 @@ if(pg_num_rows($data["img"]) > 0){
         <div class="col-xs-4 col-sm-4">
 
         <div class="svg-wrapper">
-            <svg height="60" width="520" xmlns="http://www.w3.org/2000/svg">
-                <rect class="shape" height="60" width="520" />
+            <svg xmlns="http://www.w3.org/2000/svg">
+                <rect class="shape" />
                 <div class="text">Wolfsrudel Design</div>
             </svg>
         </div>
-            <!-- <div class="productName">ádasdasd</div> -->
+            
             <div class="priceProduct">15000000</div>
             <div class="box-oder">
                 <button class="btnOder">Thêm vào giỏ hảng</button><br>
