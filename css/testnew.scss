@@ -165,7 +165,7 @@ footer{
     background:#efefef;
     text-transform:uppercase;
     text-align:center;
-    @include magic-border(2px, blue, 0.3s, 0);
+    @include magic-border(2px, black, 0.3s, 0);
     font-family:'Oswald';
     margin:20px;
     flex-grow:1;

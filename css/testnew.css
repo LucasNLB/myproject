@@ -166,8 +166,8 @@ footer {
   height: calc(100% + 4px);
   top: calc(2px/-1);
   left: calc(2px/-1);
-  background: -webkit-gradient(linear, left top, right top, from(blue), to(blue)), -webkit-gradient(linear, left bottom, left top, color-stop(50%, blue), color-stop(50%, transparent)), -webkit-gradient(linear, left bottom, left top, color-stop(50%, blue), color-stop(50%, transparent)), -webkit-gradient(linear, left top, right top, from(blue), to(blue)), -webkit-gradient(linear, right top, left top, from(blue), to(blue));
-  background: linear-gradient(to right, blue 0%, blue 100%), linear-gradient(to top, blue 50%, transparent 50%), linear-gradient(to top, blue 50%, transparent 50%), linear-gradient(to right, blue 0%, blue 100%), linear-gradient(to left, blue 0%, blue 100%);
+  background: -webkit-gradient(linear, left top, right top, from(black), to(black)), -webkit-gradient(linear, left bottom, left top, color-stop(50%, black), color-stop(50%, transparent)), -webkit-gradient(linear, left bottom, left top, color-stop(50%, black), color-stop(50%, transparent)), -webkit-gradient(linear, left top, right top, from(black), to(black)), -webkit-gradient(linear, right top, left top, from(black), to(black));
+  background: linear-gradient(to right, black 0%, black 100%), linear-gradient(to top, black 50%, transparent 50%), linear-gradient(to top, black 50%, transparent 50%), linear-gradient(to right, black 0%, black 100%), linear-gradient(to left, black 0%, black 100%);
   background-size: 100% 2px, 2px 200%, 2px 200%, 0% 2px, 0% 2px;
   background-position: 50% 100%, 0% 0%, 100% 0%, 100% 0%, 0% 0%;
   background-repeat: no-repeat, no-repeat;
