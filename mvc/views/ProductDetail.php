@@ -23,8 +23,8 @@ if(pg_num_rows($data["img"]) > 0){
         <div class="col-xs-4 col-sm-4">
 
         <div class="svg-wrapper">
-            <svg xmlns="http://www.w3.org/2000/svg">
-                <rect class="shape" />
+            <svg height="60" width="300" xmlns="http://www.w3.org/2000/svg">
+                <rect class="shape" height="60" width="300" />
                 <div class="text">Wolfsrudel Design</div>
             </svg>
         </div>
