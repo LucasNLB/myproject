@@ -146,17 +146,17 @@ footer {
 .name-product {
   text-decoration: none;
   color: #222;
-  padding: 20px;
-  background: #efefef;
+  padding: 10px 75px;
   text-transform: uppercase;
   text-align: center;
   position: relative;
   font-family: 'Oswald';
-  margin: 20px;
+  margin-top: 10px;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
   cursor: pointer;
+  display: inline-block;
 }
 
 .name-product:before {
