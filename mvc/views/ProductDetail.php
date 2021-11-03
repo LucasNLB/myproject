@@ -20,9 +20,9 @@ if(pg_num_rows($data["img"]) > 0){
         <div class="col-xs-8 col-sm-8" ><img  src="../../img/<?php echo $row['nameimg']; ?>" alt="" width="100%" height="450vh" ></div>
         <div class="col-xs-4 col-sm-4">
 
-        <div class="svg-wrapper">
+        <div class="svg-wrapper" >
             <svg height="60" width="520" xmlns="http://www.w3.org/2000/svg">
-                <rect class="shape" height="60" width="520" />
+                <rect class="shape shape-border" height="60" width="520" />
                 <div class="text">Wolfsrudel Design</div>
             </svg>
         </div>
